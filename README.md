@@ -18,4 +18,5 @@ This Website Portfolio shows a summary of my main full-stack web and app develop
   
 The following animation shows the web application's appearance and functionality:
 
-assets\images\readme.png
+/assets/images/readme.png
+
