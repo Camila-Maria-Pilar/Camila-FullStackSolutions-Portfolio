@@ -1,0 +1,138 @@
+body{
+    display: flex;
+    flex-direction: column;
+    line-height: 2.5;
+    background-color: rgb(204, 198, 198);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    
+    color: rgb(46, 2, 2);    
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    min-width: 350px;
+}
+
+h1{
+    font-size: 200%;
+    
+              
+}
+
+.my-picture{
+    border-radius: 50%;
+    height: 150px;
+    
+}
+
+.hero-picture{
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+h2{
+    margin: 2% 0;
+    font-size: 250%;
+}
+
+p {
+    text-align: left;
+    
+}
+
+article {
+    display: flex;   
+    min-width: 250px;
+    padding: 1%;
+    align-items: center;
+    
+        
+    }
+
+aside {
+    display: flex;
+    min-width: 250px;
+    }
+
+/* about me section */
+.about-me{
+    text-align: left;
+    padding-left: 0%;
+
+
+}
+
+/* contact me section */
+.contact-me {
+    display: flex;
+    justify-content: space-between;
+    min-width: 1500px;
+    text-decoration: underline;
+    border-color: black;
+    border-right: 1%;
+            
+}
+
+/* my work section */
+
+.container{
+    display: inline-block;
+    padding: 1%;
+    
+   
+     
+}
+
+.container .block1{
+    display: flex;
+    padding: 1%;
+    height: 350px;
+    width: 500px;
+}
+
+.container .block2{
+    display: inline-flex;
+    padding: .8%;
+    height: 350px;
+    width: 250px;
+}
+
+.container .block3 {
+    display: flex;
+    padding: .8%;
+    height: 350px;
+    width: 500px; 
+}
+
+
+
+footer{
+    align-items: center;
+    background-color: white;
+    text-align: center;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .code-block{
+      flex-basis: 45%;
+    }
+    
+  }
+  
+  @media screen and (min-width: 992px) {
+    .code-block {
+      flex-basis: 30%;
+    }
+  
+  }
