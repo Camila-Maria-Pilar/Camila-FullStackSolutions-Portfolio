@@ -12,4 +12,4 @@ This Website Portfolio shows a summary of my main full-stack web and app develop
       -Linkedin
     -Resume
       -Bullet points with brief info.
-  -Footer
+  ## Footer
